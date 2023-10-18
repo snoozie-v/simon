@@ -32,7 +32,7 @@ function showPattern() {
     userPattern = [];
     level++;
     $("#level-title").text("Level " + level);
-    
+
     var randomColor = buttonColors[Math.floor(Math.random() * 4)];
     gamePattern.push(randomColor);
 
@@ -75,7 +75,7 @@ $(".btn").click(function () {
     } else {
         if (userPattern[userPattern.length - 1] !== gamePattern[userPattern.length - 1]) {
             wrongSound.play()
-            $("#level-title").text("Game Over, Click to Restart.");
+            $("#level-title").text("Game Over");
  
             gamePattern = [];
             userPattern = [];

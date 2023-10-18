@@ -6,15 +6,33 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5%;
+  margin-top:  5%;
   color: #FEF2BF;
+}
+
+.start {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 #start-button {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5%;
-  color: #FEF2BF;
+  margin: 0px;
+  background-color: #FEF2BF;
+  border: 10px solid black;
+  border-radius: 20%;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+#start-button p {
+  margin: 0px;
+  padding: 10px;
 }
 
 .container {
